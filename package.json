@@ -1,0 +1,21 @@
+{
+  "name": "scole-captcha-resolver",
+  "version": "1.0.0",
+  "description": "Module for solving captcha of Scole journal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "scole",
+    "captcha"
+  ],
+  "author": "Lukramancer",
+  "license": "MIT",
+  "repository": "https://github.com/Sesc-master/scole-captcha-resolver",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

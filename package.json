@@ -18,7 +18,10 @@
   ],
   "author": "Lukramancer",
   "license": "MIT",
-  "repository": "https://github.com/Sesc-master/scole-captcha-resolver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sesc-master/scole-captcha-resolver.git"
+  },
   "devDependencies": {
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",

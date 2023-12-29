@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "Module for solving captcha of Scole journal",
   "main": "./dist/node/index.js",
+  "browser": "./dist/web/index.js",
   "types": "./dist/types/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "scole",
     "captcha"
